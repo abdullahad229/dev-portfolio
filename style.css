@@ -5,9 +5,12 @@ margin: 0;
 h1 {
     font-size: 50px;
 }
+h2 {
+    font-size: 40px;
+}
 .halfwidth {
     width: 50%;
-
+margin: 2%;
     padding: 0% 7%;
 }
 .hirelink {
@@ -19,7 +22,7 @@ h1 {
     font-weight: 700;
 
 }
-section {
+.flx {
     display: flex;
     margin-bottom: 120px;
 }
@@ -31,7 +34,7 @@ span {
     color: orange;
 }
 
-    .top-banner {
+    #top-banner {
         background-image: url(images/top-banner.png);
         background-repeat: no-repeat;
 
@@ -45,4 +48,32 @@ span {
         background-image: url(images/dream-bg.png);
         background-repeat: no-repeat;
         background-position: right;
+    }
+    .ofc {
+        display: flex;
+    }
+    .rong {
+        color: orange;
+    }
+    .baksho {
+        box-shadow: 10px 10px 30px gray, -10px -10px 30px  gray;
+margin-left: 5%;
+padding: 3% 2%;
+
+
+    }
+    #bwan {
+        border-image: linear-gradient(blue, cyan);
+        border-image-slice: 1;
+        border-left: 5px solid;
+
+    }
+    #vtu {
+        border-image: linear-gradient(orange, tomato);
+        border-image-slice: 1;
+        border-left: 5px solid;
+    }
+    .exarea {
+        background-image: url(images/my-bg2.png);
+        background-repeat: no-repeat;
     }
